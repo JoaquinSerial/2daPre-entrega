@@ -11,19 +11,27 @@
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header> 
+        <nav> 
             <a href="../Index.html">
-                <img src="../Img/logo-ejemplo.jpg" alt="logo-ejemplo"></a>
+            <img src="../Img/logo-ejemplo.jpg" alt="logo-ejemplo"></a>
             <ul>
                 <li><a href="../Index.html">Inicio</a></li>
                 <li><a href="Nosotros.html">Nosotros</a></li>
                 <li><a href="Contactenos.html">Contactenos</a></li>
                 <li><a href="Servicios.html">Servicios</a></li>
-                <h1 class="contactos-numericos">Contacto:0123456789</h1>
-                <h1 class="contacto-redes">ig: Lorem, ipsum.
-                </h1>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Contactenos.html">Ortodoncia</a></li>
+                    <li><a class="dropdown-item" href="Contactenos.html">Tratamiento Conducto</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
             </ul>
+            <h1 class="contactos-numericos">Contacto:0123456789</h1>
+            <h1 class="contacto-redes">ig: Lorem, ipsum.
+            </h1>
         </nav>
     </header>
 
@@ -37,8 +45,16 @@
                         <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
                         <a href="./Contactenos.html" class="btn btn-primary">Reservar turno</a>
                     </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="../Img/istockphoto-1293534212-612x612.jpg" class="card-img-top" alt="tratamiento de conducto">
+                        <div class="card-body">
+                            <h5 class="card-title">Tratamiento de conducto</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                            <a href="./Contactenos.html" class="btn btn-primary">Reservar turno</a>
+                        </div>
                 </div>
-
+                <!-- div de grid-->
+            </div>   
 
             </div>
         </section>
