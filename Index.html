@@ -12,30 +12,39 @@
 
 <body>
     <header>
-        <nav>
-            <a href="Index.html">
-                <img src="./Img/logo-ejemplo.png" alt="logo-ejemplo"></a>
-            <ul>
-                <li><a href="Index.html">Inicio</a></li>
-                <li><a href="./Pages/Nosotros.html">Nosotros</a></li>
-                <li><a href="./Pages/Contactenos.html">Contactenos</a></li>
-                <li><a href="./Pages/Servicios.html">Servicios</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="./Pages/Servicios.html" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false"></a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="./Pages/Contactenos.html">Ortodoncia</a></li>
-                        <li><a class="dropdown-item" href="./Pages/Contactenos.html">Tratamiento Conducto</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./Index.html">Consultorio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
                         </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pages/Nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pages/Contactenos.html">Contactenos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./Pages/Servicios.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./Pages/Servicios.html">Ortodoncia</a></li>
+                                <li><a class="dropdown-item" href="./Pages/Servicios.html">pediatria</a></li>
+                                <li><a class="dropdown-item" href="./Pages/Servicios.html">Tratamientos</a></li>
+                            </ul>
+                        </li>
                     </ul>
-
-            </ul>
-            <h1 class="contactos-numericos">Contacto:0123456789</h1>
-            <h1 class="contacto-redes">ig: Lorem, ipsum.
-            </h1>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -47,14 +56,14 @@
                 <button><a href="./Pages/Contactenos.html" class="botoncontacto">Reserva tu turno</a></button>
             </div>
         </section>
-        <div class="grid">
+        <!-- <div class="grid">
             <div class="titulo1">Estetica dental</div>
             <div class="titulo2">Ortodoncia</div>
             <div class="titulo3">pediatria</div>
             <div class="description1">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
             <div class="description2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
             <div class="description3">Lorem ipsum dolor sit amet consectetur.</div>
-        </div>
+        </div> -->
     </main>
 
     <footer>

@@ -11,51 +11,100 @@
 </head>
 
 <body>
-    <header> 
-        <nav> 
-            <a href="../Index.html">
-            <img src="../Img/logo-ejemplo.png" alt="logo-ejemplo"></a>
-            <ul>
-                <li><a href="../Index.html">Inicio</a></li>
-                <li><a href="Nosotros.html">Nosotros</a></li>
-                <li><a href="Contactenos.html">Contactenos</a></li>
-                <li><a href="Servicios.html">Servicios</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="Servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="Contactenos.html">Ortodoncia</a></li>
-                    <li><a class="dropdown-item" href="Contactenos.html">Tratamiento Conducto</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../Index.html">Consultorio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../Index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contactenos.html">Contactenos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="Servicios.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./Servicios.html">Ortodoncia</a></li>
+                                <li><a class="dropdown-item" href="Servicios.html">pediatria</a></li>
+                                <li><a class="dropdown-item" href="./Servicios.html">Tratamientos</a></li>
+                            </ul>
+                        </li>
                     </ul>
-            </ul>
-            <h1 class="contactos-numericos">Contacto:0123456789</h1>
-            <h1 class="contacto-redes">ig: Lorem, ipsum.
-            </h1>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
         <section class="Card__principal">
             <div class="Servicios__fondo">
-                <div class="card" style="width: 18rem;">
-                    <img src="../Img/Tratamiento de conducto.jpeg" class="card-img-top" alt="tratamiento de conducto">
-                    <div class="card-body">
-                        <h5 class="card-title">Tratamiento de conducto</h5>
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-                        <a href="./Contactenos.html" class="btn btn-primary">Reservar turno</a>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="../Img/istockphoto-1293534212-612x612.jpg" class="card-img-top" alt="tratamiento de conducto">
-                        <div class="card-body">
-                            <h5 class="card-title">Tratamiento de conducto</h5>
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-                            <a href="./Contactenos.html" class="btn btn-primary">Reservar turno</a>
+                <div class="card mb-3" style="max-width: 780px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../Img/istockphoto-1293534212-612x612.jpg" class="img-fluid rounded-start"
+                                alt="Ortodoncia">
                         </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ortodoncia</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- div de grid-->
-            </div>   
 
+                <div class="card mb-3" style="max-width: 780px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../Img/servicios para niños.jpg" class="img-fluid rounded-start" alt="pediatria">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 780px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../Img/Tratamiento de conducto.jpeg" class="img-fluid rounded-start"
+                                alt="Tratamiento de conducto">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fin de cards -->
             </div>
         </section>
 
