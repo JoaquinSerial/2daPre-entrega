@@ -221,6 +221,7 @@ main h1 {
     justify-content: center;
     margin: 0rem;
 }
+
 .img-fluid {
     height: 200px;
 }
@@ -307,4 +308,17 @@ main h1 {
 
 .pie-pagina .grupo-1 .box p {
     margin-bottom: 3rem;
+}
+
+
+/* Media Queries vista mobile */
+
+@media screen and (max-width: 780px ) {
+body{
+    background-color: blue;
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+}
 }
