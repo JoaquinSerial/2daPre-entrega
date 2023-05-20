@@ -60,7 +60,7 @@ nav ul li:hover::before {
 
 /* Main */
 body {
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(243, 242, 242);
 }
 
 .header {
@@ -99,7 +99,7 @@ main h1 {
 
 /* main index */
 .Banner {
-    background: url(./Img/Camilla\ dentista.jpeg)fixed center/cover;
+    background: url(../Img/Camilla\ dentista.jpeg)fixed center/cover;
     height: 50rem;
     width: 40;
     position: relative;
@@ -177,7 +177,7 @@ main h1 {
 
 /* Main de Contactenos */
 .Contactenos__banner {
-    background: url(./Img/Sala-espera.jpg) fixed center/cover;
+    background: url(../Img/Sala-espera.jpg) fixed center/cover;
     height: 50rem;
     position: relative;
     display: flex;
@@ -212,7 +212,7 @@ main h1 {
 }
 
 .Servicios__fondo {
-    background: url(./Img/servicios.jpeg)fixed center/cover;
+    background: url(../Img/servicios.jpeg)fixed center/cover;
     height: 60rem;
     width: 250rem;
     position: relative;
@@ -229,7 +229,7 @@ main h1 {
 
 /* Main- Nosotros */
 .Fondo__Nosotros {
-    background: url(./Img/equipos.jpg) fixed center/cover;
+    background: url(../Img/equipos.jpg) fixed center/cover;
     height: 50rem;
     position: relative;
     display: flex;
