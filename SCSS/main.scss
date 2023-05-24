@@ -4,14 +4,16 @@
     box-sizing: border-box;
 }
 
-@import "_main-header.scss";
-@import "_main-body.scss";
-@import "_footer.scss";
+@use "_variables.scss";
 
-@import "_main-contactenos.scss";
+@use "_main-header.scss";
+@use "_main-body.scss";
+@use "_footer.scss";
 
-@import "_main-servicios.scss";
+@use "_main-contactenos.scss";
 
-@import "_main-nosotros.scss";
+@use "_main-servicios.scss";
 
-@import "_responsive.scss";
+@use "_main-nosotros.scss";
+
+@use "_responsive.scss";
